@@ -1,3 +1,5 @@
+## Showcasing the final results with visualizations
+
 - Charting the best month for sales based on sales revenue.
 <html>
 <head><meta charset="utf-8" /></head>
