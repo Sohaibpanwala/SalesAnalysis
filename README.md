@@ -1,33 +1,12 @@
-## Background Information:
+## Project Layout:
 
-This repo goes with [my video](https://youtu.be/eMOA1pPVUc4) on "Solving real world data science videos with Python Pandas!". Here is some information on that video.
+I used 12 months worth of sales data obtained from [Keith Galli](https://github.com/KeithGalli) and then performed sales analytics. The data contains hundreds of thousands of electronics store purchases broken down by month, product type, cost, purchase address, etc. 
 
-In this video we use Python Pandas & Python Matplotlib to analyze and answer business questions about 12 months worth of sales data. The data contains hundreds of thousands of electronics store purchases broken down by month, product type, cost, purchase address, etc. 
-
-We start by cleaning our data. Tasks during this section include:
-- Drop NaN values from DataFrame
-- Removing rows based on a condition
-- Change the type of columns (to_numeric, to_datetime, astype)
-
-Once we have cleaned up our data a bit, we move the data exploration section. In this section we explore 5 high level business questions related to our data:
-- What was the best month for sales? How much was earned that month?
-- What city sold the most product?
-- What time should we display advertisemens to maximize the likelihood of customer’s buying product?
-- What products are most often sold together?
-- What product sold the most? Why do you think it sold the most?
-
-To answer these questions we walk through many different pandas & matplotlib methods. They include:
-- Concatenating multiple csvs together to create a new DataFrame (pd.concat)
-- Adding columns
-- Parsing cells as strings to make new columns (.str)
-- Using the .apply() method
-- Using groupby to perform aggregate analysis
-- Plotting bar charts and lines graphs to visualize our results
-- Labeling our graphs
-
-Check out the first video I did on Pandas: <br/>
-https://youtu.be/vmEHCJofslg 
-
-Check out the videos I did on Matplotlib: <br/>
-https://youtu.be/DAQNHzOcO5A <br/>
-https://youtu.be/0P7QnIQDBJY
+Cleaned up the data and then answered these proceeding questions. Created interactive visualizations using Plotly.
+- Charting the best month for sales based on sales revenue.
+- The city with the highest sales revenue
+- The best moment to display advertisements based on time order was placed
+   * Assumption that customers placed orders right after viewing an advertisement
+- Which products are the best complements and sell the best together?
+- Which was the best selling product overall
+    * Charting quantity sold of product to product price and visualizing any relationship
