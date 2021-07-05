@@ -1,5 +1,5 @@
 - Charting the best month for sales based on sales revenue.
-![](docs/Charting_Monthly_Sales.html)
+![](Charting_Monthly_Sales.html)
 
 - The city with the highest sales revenue
 - The best moment to display advertisements based on time order was placed
