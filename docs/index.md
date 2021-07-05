@@ -1,6 +1,6 @@
 - Charting the best month for sales based on sales revenue.
 [[https://sohaib3000.github.io/SalesAnalysis/Charting_Monthly_Sales.html]]
-
+bjlakdjfklasjfkjaflkajds
 - The city with the highest sales revenue
 - The best moment to display advertisements based on time order was placed
    * Assumption that customers placed orders right after viewing an advertisement
