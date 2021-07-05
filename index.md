@@ -1,9 +1,7 @@
-## Project Layout:
-
-I used 12 months worth of sales data obtained from [Keith Galli](https://github.com/KeithGalli) and then performed sales analytics. The data contains hundreds of thousands of electronics store purchases broken down by month, product type, cost, purchase address, etc. 
-
-Cleaned up the data and then answered these proceeding questions. Created interactive visualizations using Plotly.
 - Charting the best month for sales based on sales revenue.
+
+{% visualizations Charting Monthly Sales.html %}
+
 - The city with the highest sales revenue
 - The best moment to display advertisements based on time order was placed
    * Assumption that customers placed orders right after viewing an advertisement
